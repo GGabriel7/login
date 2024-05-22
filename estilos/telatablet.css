@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body, html, main {
+    background-image: linear-gradient(180deg, #551355, black);
+}
+
+
+section#login {
+    width: 75vw;
+}
+
+#img {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#form {
+    float: right;
+    width: 66.5%;
+    height: 100%;
+}
+
+#form p {
+    font-size: 1.1em;
+}
