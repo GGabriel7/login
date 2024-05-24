@@ -64,7 +64,6 @@ section#login {
 form > div.itens {
     display: block;
     background-color: #551355;
-    border: 2px solid #551355;
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -73,18 +72,22 @@ form > div.itens {
 }
 
 div.itens > label > span {
+    position: absolute;
     color: white;
     font-size: 2em;
     padding: 2.5px;
     width: 30px;
+    cursor: pointer;
 }
 
 div.itens >  input {
-    width: calc(100% - 43.36px);
+    width: calc(100% - 30px);
     height: 100%;
     border-radius: 5px;
     background-color: #ffc9ff;
-    transform: translateY(-11px);
+    box-sizing: border-box;
+    
+    transform: translate(35px);
 }
 
 div.itens >  input:focus-within {
