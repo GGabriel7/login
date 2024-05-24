@@ -6,6 +6,7 @@ body, html, main {
 
 section#login {
     width: 850px;
+    height: 320px;
 }
 
 #img {
